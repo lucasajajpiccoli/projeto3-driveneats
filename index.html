@@ -30,7 +30,7 @@
 
                 <div class="gallery">
 
-                    <div>
+                    <div class="itembox" onClick="selectDish(this);">
 
                         <div class="item">
 
@@ -48,9 +48,11 @@
 
                         </div>
 
+                        <ion-icon class="icondi" name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDish(this);">
 
                         <div class="item">
 
@@ -68,9 +70,11 @@
 
                         </div>
 
+                        <ion-icon class="icondi" name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDish(this);">
 
                         <div class="item">
 
@@ -88,9 +92,11 @@
 
                         </div>
 
+                        <ion-icon class="icondi" name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDish(this);">
 
                         <div class="item">
 
@@ -108,9 +114,11 @@
 
                         </div>
 
+                        <ion-icon class="icondi" name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDish(this);">
 
                         <div class="item">
 
@@ -128,6 +136,8 @@
 
                         </div>
 
+                        <ion-icon class="icondi" name="checkmark-circle"></ion-icon>
+
                     </div>
 
                 </div>
@@ -140,7 +150,7 @@
 
                 <div class="gallery">
 
-                    <div>
+                    <div class="itembox" onClick="selectDrink(this);">
 
                         <div class="item">
 
@@ -158,9 +168,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDrink(this);">
 
                         <div class="item">
 
@@ -178,9 +190,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDrink(this);">
 
                         <div class="item">
 
@@ -198,9 +212,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDrink(this);">
 
                         <div class="item">
 
@@ -218,9 +234,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDrink(this);">
 
                         <div class="item">
 
@@ -238,6 +256,8 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
                 </div>
@@ -250,7 +270,7 @@
 
                 <div class="gallery">
 
-                    <div>
+                    <div class="itembox" onClick="selectDessert(this);">
 
                         <div class="item">
 
@@ -268,9 +288,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDessert(this);">
 
                         <div class="item">
 
@@ -288,9 +310,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDessert(this);">
 
                         <div class="item">
 
@@ -308,9 +332,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDessert(this);">
 
                         <div class="item">
 
@@ -328,9 +354,11 @@
 
                         </div>
 
+                        <ion-icon name="checkmark-circle"></ion-icon>
+
                     </div>
 
-                    <div>
+                    <div class="itembox" onClick="selectDessert(this);">
 
                         <div class="item">
 
@@ -347,6 +375,8 @@
                             <div>9.50</div>
 
                         </div>
+
+                        <ion-icon name="checkmark-circle"></ion-icon>
 
                     </div>
 
@@ -368,7 +398,7 @@
 
             </div>
 
-            <div class="buttonchecked hidden">
+            <div class="buttonchecked hidden" onClick="confirmandcalculate();">
 
                 <div>
 
@@ -386,7 +416,7 @@
 
         <div>Confirme seu pedido</div>
 
-        <div>
+        <div class="dishscreen">
 
             <div></div>
 
@@ -394,7 +424,7 @@
 
         </div>
 
-        <div>
+        <div class="drinkscreen">
 
             <div></div>
 
@@ -402,7 +432,7 @@
 
         </div>
 
-        <div>
+        <div class="dessertscreen">
 
             <div></div>
 
@@ -410,9 +440,9 @@
 
         </div>
 
-        <div>
+        <div class="totalscreen">
 
-            <div></div>
+            <div>TOTAL</div>
 
             <div></div>
 
@@ -423,6 +453,8 @@
         <div>Cancelar</div>
 
     </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
     <script src="js/script.js"></script>
 
